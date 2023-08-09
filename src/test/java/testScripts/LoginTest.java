@@ -12,8 +12,8 @@ public class LoginTest {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://the-internet.herokuapp.com/login");
-		driver.findElement(By.linkText("Elemental Selenium")).click();
-		//driver.findElement(By.partialLinkText("Elemental")).click();
+		//driver.findElement(By.linkText("Elemental Selenium")).click();
+		driver.findElement(By.partialLinkText("Elemental")).click();
 		
 		
 	}
