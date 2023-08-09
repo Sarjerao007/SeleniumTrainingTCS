@@ -23,7 +23,7 @@ public class LoginTest {
 		//driver.findElement(By.className("radius")).click();
 		//driver.findElement(By.linkText("Elemental Selenium")).click();
 		//driver.findElement(By.partialLinkText("Elemental")).click();
-		
+		//Testcommit
 		
 	}
 
